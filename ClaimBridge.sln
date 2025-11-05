@@ -5,6 +5,12 @@ VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridge", "ClaimBridge\ClaimBridge.csproj", "{93E2959E-2277-4BA4-A47A-CDDB2C9207A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridgeBusinessDomain", "ClaimBridgeBusinessDomain\ClaimBridgeBusinessDomain.csproj", "{F666687D-9C75-4269-9D42-637AD145A248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridgeModels", "ClaimBridgeModels\ClaimBridgeModels.csproj", "{BCEFDD89-8C47-4382-8F40-02FE354639CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridgeUtilities", "ClaimBridgeUtilities\ClaimBridgeUtilities.csproj", "{73F7814F-2F98-44D6-96FE-738385F157CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{93E2959E-2277-4BA4-A47A-CDDB2C9207A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E2959E-2277-4BA4-A47A-CDDB2C9207A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E2959E-2277-4BA4-A47A-CDDB2C9207A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F666687D-9C75-4269-9D42-637AD145A248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F666687D-9C75-4269-9D42-637AD145A248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F666687D-9C75-4269-9D42-637AD145A248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F666687D-9C75-4269-9D42-637AD145A248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEFDD89-8C47-4382-8F40-02FE354639CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEFDD89-8C47-4382-8F40-02FE354639CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEFDD89-8C47-4382-8F40-02FE354639CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEFDD89-8C47-4382-8F40-02FE354639CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F7814F-2F98-44D6-96FE-738385F157CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F7814F-2F98-44D6-96FE-738385F157CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F7814F-2F98-44D6-96FE-738385F157CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F7814F-2F98-44D6-96FE-738385F157CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

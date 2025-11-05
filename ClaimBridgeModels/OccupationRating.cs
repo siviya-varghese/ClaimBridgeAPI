@@ -8,6 +8,7 @@ namespace ClaimBridgeModels
 {
     public class OccupationRating
     {
+        public Guid OccupationRatingUId { get; set; }
 
         public string Rating { get; set; }
         public decimal Factor { get; set; }

@@ -8,7 +8,7 @@ namespace ClaimBridgeModels
 {
     public class OccupationDetails
     {
-
+        public Guid OccupationDetailsUId { get; set; }
         public string Occupation { get; set; }
 
         public string Rating { get; set; }
