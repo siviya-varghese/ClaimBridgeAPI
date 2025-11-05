@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridge", "ClaimBridge\ClaimBridge.csproj", "{93E2959E-2277-4BA4-A47A-CDDB2C9207A3}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridgeModels", "ClaimBridgeModels\ClaimBridgeModels.csproj", "{BCEFDD89-8C47-4382-8F40-02FE354639CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridgeUtilities", "ClaimBridgeUtilities\ClaimBridgeUtilities.csproj", "{73F7814F-2F98-44D6-96FE-738385F157CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBridgeTest", "ClaimBridgeTest\ClaimBridgeTest.csproj", "{50AAF2E1-4837-4E67-89BD-3040CA526F91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{73F7814F-2F98-44D6-96FE-738385F157CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F7814F-2F98-44D6-96FE-738385F157CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F7814F-2F98-44D6-96FE-738385F157CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AAF2E1-4837-4E67-89BD-3040CA526F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AAF2E1-4837-4E67-89BD-3040CA526F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AAF2E1-4837-4E67-89BD-3040CA526F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AAF2E1-4837-4E67-89BD-3040CA526F91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
