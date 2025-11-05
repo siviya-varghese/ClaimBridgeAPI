@@ -11,7 +11,7 @@ namespace ClaimBridgeModels
         public Guid OccupationDetailsUId { get; set; }
         public string Occupation { get; set; }
 
-        public string Rating { get; set; }
+        public Guid OccupationRatingUId { get; set; }
         public DateTime CreatedOn { get; set; }
         public DateTime ModifiedOn { get; set; }
         public DateTime RowVersion { get; set; }

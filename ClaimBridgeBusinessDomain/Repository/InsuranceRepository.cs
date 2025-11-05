@@ -1,11 +1,12 @@
-﻿using ClaimBridgeModels;
+﻿using ClaimBridgeBusinessDomain.Repository.IRepository;
+using ClaimBridgeModels;
 using ClaimBridgeUtilities;
 using ClaimBridgeUtilities.Exceptions;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClaimBridgeBusinessDomain.Repository
 {
-    public class InsuranceRepository
+    public class InsuranceRepository: IInsuranceRepository
     {
         private PostgresContext _postgresContext;
         public InsuranceRepository(PostgresContext postgresContext)
@@ -19,7 +20,7 @@ namespace ClaimBridgeBusinessDomain.Repository
 
                 var result = await (from occupationDetails in _postgresContext.OccupationDetails
                                     join occupationRating in _postgresContext.OccupationRatings
-                                     on occupationDetails.Rating equals occupationRating.Rating
+                                     on occupationDetails.OccupationRatingUId equals occupationRating.OccupationRatingUId
                                     select new OccupationFactorDetailsResponse
                                     {
                                         Occupation = occupationDetails.Occupation,

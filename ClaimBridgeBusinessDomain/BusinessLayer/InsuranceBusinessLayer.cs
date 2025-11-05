@@ -1,10 +1,11 @@
-﻿using ClaimBridgeBusinessDomain.Repository.IRepository;
+﻿using ClaimBridgeBusinessDomain.Interface;
+using ClaimBridgeBusinessDomain.Repository.IRepository;
 using ClaimBridgeModels;
 
 namespace ClaimBridgeBusinessDomain.BusinessLayer
 {
 
-    public class InsuranceBusinessLayer
+    public class InsuranceBusinessLayer: IInsuranceBusinessLayer
     {
         private PostgresContext _postgresContext;
         private readonly IInsuranceRepository _insuranceRepository;

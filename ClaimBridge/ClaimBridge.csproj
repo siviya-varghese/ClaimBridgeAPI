@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClaimBridgeBusinessDomain\ClaimBridgeBusinessDomain.csproj" />
+    <ProjectReference Include="..\ClaimBridgeModels\ClaimBridgeModels.csproj" />
+    <ProjectReference Include="..\ClaimBridgeUtilities\ClaimBridgeUtilities.csproj" />
+  </ItemGroup>
+
 </Project>

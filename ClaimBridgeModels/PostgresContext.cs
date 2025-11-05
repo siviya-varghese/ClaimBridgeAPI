@@ -32,7 +32,6 @@ namespace ClaimBridgeModels
                 b.HasKey(e => e.OccupationDetailsUId);
                 b.Property(e => e.OccupationDetailsUId)
                     .HasColumnName("OccupationDetailsUId")
-                    .HasMaxLength(100)
                     .IsRequired();
 
                 b.Property(e => e.Occupation)
@@ -40,9 +39,8 @@ namespace ClaimBridgeModels
                     .HasMaxLength(100)
                     .IsRequired();
 
-                b.Property(e => e.Rating)
-                    .HasColumnName("Rating")
-                    .HasMaxLength(50);
+                b.Property(e => e.OccupationRatingUId)
+                    .HasColumnName("OccupationRatingUId");
 
                 b.Property(e => e.CreatedOn)
                     .HasColumnName("CreatedOn")
@@ -72,7 +70,6 @@ namespace ClaimBridgeModels
                 b.HasKey(e => e.OccupationRatingUId);
                 b.Property(e => e.OccupationRatingUId)
                     .HasColumnName("OccupationRatingUId")
-                    .HasMaxLength(50)
                     .IsRequired();
 
                 b.Property(e => e.Rating)

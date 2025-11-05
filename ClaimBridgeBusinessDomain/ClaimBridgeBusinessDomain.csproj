@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ClaimBridgeModels\ClaimBridgeModels.csproj" />
     <ProjectReference Include="..\ClaimBridgeUtilities\ClaimBridgeUtilities.csproj" />
   </ItemGroup>
