@@ -30,7 +30,10 @@ namespace ClaimBridgeBusinessDomain.BusinessLayer
                 UserName = user.UserName,
                 DateOfBirth = user.DateOfBirth,
                 Occupation = user.Occupation,
-                DeathSumInsured = user.DeathSumInsured
+                DeathSumInsured = user.DeathSumInsured,
+                RowStatusUId = Guid.Parse("00000000-0000-0000-0000-000000000000"),
+                CreatedOn = DateTime.Now,
+                ModifiedOn = DateTime.Now
             };
             var result = await _insuranceRepository.SaveUserDetails(userObj);
             return result;

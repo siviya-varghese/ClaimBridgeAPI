@@ -15,7 +15,7 @@ namespace ClaimBridge.Controllers
         private readonly IInsuranceBusinessLayer _insuranceBusinessLayer;
         public InsuranceController(IInsuranceBusinessLayer insuranceBusinessLayer)
         {
-            insuranceBusinessLayer = _insuranceBusinessLayer;
+            _insuranceBusinessLayer = insuranceBusinessLayer;
         }
 
 
