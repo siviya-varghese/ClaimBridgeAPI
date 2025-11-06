@@ -6,9 +6,9 @@ It exposes RESTful endpoints for fetching occupation details and saving user inf
 #Setup & Run Instructions (ASP.NET Core Web API)
 1. Prerequisites
 Before running the Claim Bridge API, ensure you have the following installed:
-  1. .NET 8.0 SDK
-  2. PostgreSql
-  3. Visual Studio 2022
+  *.NET 8.0 SDK
+  * PostgreSql
+  * Visual Studio 2022
 2. Clone the Repository
 3. Configure Database Connection
 4. Run the API - Set ClaimBridge as startup project
